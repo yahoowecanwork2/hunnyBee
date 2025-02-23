@@ -5,6 +5,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 /* header section */
 #header {
     display: flex;
@@ -215,4 +228,140 @@ html {
 .fe-box:hover {
     box-shadow: 10px 10px 64px rgba(177, 85, 85, 0.5);
 
+}
+
+/* product section */
+#pro1 {
+    text-align: center;
+
+
+}
+
+#pro1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+
+}
+
+#pro1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#pro1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#pro1 .pro .des h3 {
+    color: rgb(134, 31, 31);
+    font-size: 18px;
+}
+
+#pro1 .pro .des .star {
+    color: rgb(238, 210, 50);
+}
+
+#pro1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    /* font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0; */
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.section-ban1 {
+    margin: 40px 0;
+}
+
+/* banner section */
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url(./images/banner/banner1.2.jpg); */
+    background-color: rgb(197, 197, 187);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    font-size: 25px;
+    color: black;
+}
+
+#banner h2 {
+    font-size: 40px;
+    color: black;
+    padding: 30px 0;
+}
+
+#banner h2 span {
+    color: rgb(189, 25, 25);
+}
+
+#banner button:hover {
+    background-color: rgb(19, 19, 100);
+    color: white;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    background-image: url(./images/banner/banner2.jpg);
+    background-color: rgb(197, 197, 187);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: rgb(87, 141, 141);
+    border: 1px solid black;
+    color: black;
 }
