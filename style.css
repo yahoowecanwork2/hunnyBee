@@ -431,3 +431,63 @@ button.white {
     font-weight: 800;
     font-size: 15px;
 }
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./images/banner/b14.png);
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    background-color: #095fb6;
+    padding: 40px 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8f5f5;
+}
+
+#newsletter p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a7a3a3;
+}
+
+#newsletter p span {
+    color: rgb(248, 248, 8);
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+#newsletter button {
+    height: 3.125rem;
+    padding: 0 20px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newsletter button:hover {
+    background-color: #ff5722;
+}
