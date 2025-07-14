@@ -491,3 +491,87 @@ button.white {
 #newsletter button:hover {
     background-color: #ff5722;
 }
+
+/* footer section */
+.footer {
+    background-color: #fff1f5;
+    /* Soft pastel pink */
+    color: #2b2b2b;
+    /* Darker text */
+    padding: 40px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-col {
+    flex: 1 1 250px;
+    margin: 20px 10px;
+}
+
+.footer-col h3 {
+    font-size: 24px;
+    color: #c94f7c;
+    /* Deep rose */
+}
+
+.footer-col h4 {
+    color: #d64f7f;
+    /* Pink heading */
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-col p,
+.footer-col ul li a {
+    color: #333;
+    /* Darker paragraph and link text */
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a:hover {
+    color: #c94f7c;
+}
+
+.social-icons a img {
+    width: 32px;
+    /* Increased icon size */
+    margin-right: 14px;
+    transition: transform 0.3s ease;
+    filter: grayscale(20%);
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+    filter: none;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    border-top: 1px solid #fcdce4;
+    padding: 15px 0;
+    margin-top: 20px;
+}
