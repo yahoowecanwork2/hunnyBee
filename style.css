@@ -206,6 +206,8 @@ html {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    /* default for desktop */
+    gap: 20px;
 }
 
 .fe-box {
@@ -648,15 +650,29 @@ button.white {
     }
 
     #feature {
+        flex-wrap: nowrap;
+        /* items ek hi line me */
+        overflow-x: auto;
+        /* horizontal scroll enable */
+        justify-content: flex-start;
+        /* items left se start honge */
+        -webkit-overflow-scrolling: touch;
+        /* smooth scroll for iOS */
+        scrollbar-width: none;
+        /* Firefox me scrollbar hide */
+    }
 
-        justify-content: center;
-
+    #feature::-webkit-scrollbar {
+        display: none;
+        /* Chrome/Edge me scrollbar hide */
     }
 
     .fe-box {
-
-        margin: 15px 15px;
+        flex: 0 0 auto;
+        /* shrink/expand band kare */
+        margin-right: 15px;
     }
+
 
     .pro-container {
 
