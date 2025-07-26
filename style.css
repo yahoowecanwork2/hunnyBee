@@ -46,7 +46,7 @@ button.normal {
     font-weight: 600;
 }
 
-/* HAMBURGER hidden on desktop */
+/* Hide hamburger on desktop */
 #mobile {
     display: none;
     font-size: 25px;
@@ -62,12 +62,14 @@ button.normal {
         right: -100%;
         width: 100%;
         background-color: #003366;
-        transition: 0.3s ease;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.3s ease;
     }
 
     #navbar ul {
         flex-direction: column;
-        align-items: center;
+        gap: 20px;
         padding: 20px 0;
     }
 
@@ -79,6 +81,7 @@ button.normal {
         display: block;
     }
 }
+
 
 
 
