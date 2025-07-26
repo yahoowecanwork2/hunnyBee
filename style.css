@@ -701,3 +701,39 @@ button.white {
         font-size: 1rem;
     }
 }
+
+/* hide menu icon by default */
+#mobile {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* mobile ke liye show karo */
+@media (max-width: 768px) {
+    #mobile {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #navbar {
+        position: absolute;
+        top: 100px;
+        right: -100%;
+        width: 100%;
+        background-color: #003366;
+        transition: right 0.3s ease;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+}
