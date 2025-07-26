@@ -1,6 +1,6 @@
-const mobile = document.getElementById('mobile');
-const navbar = document.getElementById('navbar');
+const bar = document.getElementById('bar');
+const nav = document.getElementById('navbar');
 
-mobile.addEventListener('click', () => {
-    navbar.classList.toggle('active');
+bar.addEventListener('click', () => {
+    nav.classList.toggle('active');
 });
