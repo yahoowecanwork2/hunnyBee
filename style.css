@@ -649,34 +649,49 @@ button.white {
 
     }
 
+    /* Feature section horizontal scroll */
     #feature {
         flex-wrap: nowrap;
-        /* items ek hi line me */
         overflow-x: auto;
-        /* horizontal scroll enable */
         justify-content: flex-start;
-        /* items left se start honge */
         -webkit-overflow-scrolling: touch;
-        /* smooth scroll for iOS */
         scrollbar-width: none;
-        /* Firefox me scrollbar hide */
     }
 
     #feature::-webkit-scrollbar {
         display: none;
-        /* Chrome/Edge me scrollbar hide */
     }
 
     .fe-box {
         flex: 0 0 auto;
-        /* shrink/expand band kare */
+        margin-right: 15px;
+    }
+
+    /* Product container horizontal scroll */
+    .pro-container {
+        flex-wrap: nowrap;
+        /* ek hi line me */
+        overflow-x: auto;
+        /* horizontal scroll */
+        justify-content: flex-start;
+        /* left se start hoga */
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .pro-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pro-container .pro {
+        flex: 0 0 auto;
+        /* shrink disable */
         margin-right: 15px;
     }
 
 
-    .pro-container {
 
-        justify-content: center;
 
-    }
+
+
 }
