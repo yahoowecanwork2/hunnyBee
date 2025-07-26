@@ -580,7 +580,7 @@ button.white {
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
     #section-p1 {
-        padding: 40px 40px;
+        padding: 20px 20px;
     }
 
     #navbar {
