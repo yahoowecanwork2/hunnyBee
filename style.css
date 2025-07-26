@@ -689,6 +689,29 @@ button.white {
         margin-right: 15px;
     }
 
+    #banner {
+
+        height: 20vh;
+
+    }
+
+    #sm-banner .banner-box {
+
+        min-width: 100%;
+        height: 30vh;
+
+    }
+
+    #banner-box3 {
+
+        padding: 0 40px;
+    }
+
+    #banner-box3 .banner-box {
+
+        min-width: 28%;
+
+    }
 
 
 
