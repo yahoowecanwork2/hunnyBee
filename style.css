@@ -579,9 +579,9 @@ button.white {
 /* navbar */
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
-    #section-p1 {
+    /* #section-p1 {
         padding: 5px 5px;
-    }
+    } */
 
     #navbar {
         flex-direction: column;
@@ -656,5 +656,11 @@ button.white {
     .fe-box {
 
         margin: 15px 15px;
+    }
+
+    .pro-container {
+
+        justify-content: center;
+
     }
 }
