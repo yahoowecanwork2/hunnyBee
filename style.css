@@ -19,7 +19,7 @@ button.normal {
 }
 
 /* header section */
-#header {
+/* #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +50,54 @@ button.normal {
 /* #header ul li { */
 /* position: absolute; */
 /* } */
+/* Navbar base */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Mobile icon hidden by default */
+#mobile {
+    display: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+/* -------------- Responsive Navbar -------------- */
+@media (max-width: 768px) {
+    #navbar {
+        position: absolute;
+        top: 100px;
+        right: -100%;
+        width: 100%;
+        background: #003366;
+        transition: right 0.3s ease;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #mobile {
+        display: block;
+        margin-right: 20px;
+    }
+}
+
 
 #header a {
     text-decoration: none;
@@ -74,6 +122,8 @@ button.normal {
     bottom: -4px;
     left: 20px;
 }
+
+*/
 
 /* hero section */
 /* Reset some default browser styles */
@@ -699,41 +749,5 @@ button.white {
 
     .newsletter input {
         font-size: 1rem;
-    }
-}
-
-/* hide menu icon by default */
-#mobile {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
-}
-
-/* mobile ke liye show karo */
-@media (max-width: 768px) {
-    #mobile {
-        display: block;
-        margin-right: 20px;
-    }
-
-    #navbar {
-        position: absolute;
-        top: 100px;
-        right: -100%;
-        width: 100%;
-        background-color: #003366;
-        transition: right 0.3s ease;
-    }
-
-    #navbar ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 20px 0;
-    }
-
-    #navbar.active {
-        right: 0;
     }
 }
