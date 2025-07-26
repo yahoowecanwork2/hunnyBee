@@ -219,6 +219,10 @@ html {
     margin: 15px 0;
 }
 
+#section-p1 {
+    padding: 40px 80px;
+}
+
 .fe-box:hover {
     box-shadow: 10px 10px 64px rgba(177, 85, 85, 0.5);
 
@@ -575,6 +579,10 @@ button.white {
 /* navbar */
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+    #section-p1 {
+        padding: 40px 40px;
+    }
+
     #navbar {
         flex-direction: column;
         align-items: flex-start;
